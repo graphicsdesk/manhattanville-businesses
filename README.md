@@ -1,4 +1,4 @@
-# SLUG
+# Manhattanvillle Businesses
 
 This story was created with [Spectate](https://github.com/spec-journalism/spectate).
 
