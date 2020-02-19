@@ -3,8 +3,47 @@
 // @import 'styles/eye-lead-ellipsis';
 // @import 'styles/news-ellipsis';
 
-.graphic-name {
+.lede-interactive {
   height: 300px;
+  max-width: 600px;
   border: 1px solid red;
+  margin: 0 auto;
   color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sticky-portrait {
+  .portrait-container {
+    height: 100vh;
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: -1;
+    margin: 0 auto;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  p {
+    text-align: center;
+    padding-top: -10vh;
+    padding-bottom: 110vh;
+    color: white;
+    font-size: 50px;
+    margin: 0;
+  }
+}
+
+.locator-map {
+  max-width: 300px;
+  margin: 0 auto;
+  img {
+    width: 100%;
+  }
 }
