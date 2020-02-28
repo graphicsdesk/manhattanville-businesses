@@ -1,14 +1,17 @@
-<div class="sticky-portrait">
+<div>
 	<div class="portrait-container">
 		<img src="{{item.value.image}}"/>
 	</div>
-<div class="test">
-	<div>
-		<h1 class="name-text">	 {{item.value.ownername}}
-		<img src="{{item.value.map}}" class="map" align="right"/>	
-		</h1>
-		<h2 class="rest-text">{{item.value.restaurantname}}</h2>
-		<p class="desc-text">{{item.value.description}}</p>
+
+	<div class="annote">
+		<div>
+			<h1 class="name-text">	 {{item.value.ownername}}</h1>
+			<h2 class="rest-text">{{item.value.restaurantname}}</h2>
+			<p class="desc-text">{{item.value.description}}</p>
+		</div>
+		<div class="map-flex">
+			<img src="{{item.value.map}}" class="map" align="right"/>	
+		</div>
 	</div>
 </div>
 

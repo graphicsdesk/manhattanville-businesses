@@ -32,44 +32,43 @@
 	}
 }
 
-.sticky-portrait p {
+.annote{
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	padding: 0 10vw 0 10vw;
 	padding-bottom: 50vh;
 }
 
-.test{
-	padding-top: 10vh;
-}
 
 .name-text{
 	text-align: left;
-	margin: 0 0 0 20vh;
 	color: white;
-	font: Georgia;
+	font-family: Georgia;
 	font-size: 50;
+	margin: 0 0 0 0;
 }
 
 .rest-text{
 	text-align: left;
-	margin: 0 0 0 20vh;
 	color: white;
-	font: Georgia;
+	font-family: Georgia;
 	font-size: 30;
 	flex-wrap:wrap;
+	margin: 0 0 0 0;
 }
 
 .desc-text{
 	text-align: left;
-	margin: 0 0 0 20vh;
 	color: white;
-	font: Georgia;
+	font-family: Georgia;
 	font-size: 20;
 	flex-wrap:wrap;
+	margin: 0 0 0 0;
 }
 
 .map{
-	margin: 0 20vh 0 0;
-	width: 40vh;
+	width:20vw;
 	height:auto;
-	position:relative;
-	top:-70px
 }
+
