@@ -1,0 +1,22 @@
+<!--
+  hi hong
+
+  the video is the "floridita soundbite" one in https://drive.google.com/drive/u/1/folders/1cbllZ-pVIUVJnC05Yz6VUY6UHGNc9KwJ
+
+  download it and put it in /assets/
+
+  There's a {.video} field at the bottom of the Spectate doc that drives this thing https://docs.google.com/document/d/1l22Ub6jRGoUTZ7H4Uti73z4qiluiCs91E7wLO-dH1Qc/edit. change the 'asset' field inside of that to whatever you named the video. after you `make download`, the asset field you just changed should be available in this file at `item.value.asset`
+
+  so yea we're basically just doing a video now lol. idk do whatever u want w it/have fun, e.g. styling the controls, setting the width, making it responsive, etc
+  inspo: 
+    - https://www.propublica.org/article/allende-zetas-cartel-massacre-and-the-us-dea
+    - https://www.newyorker.com/video/watch/how-bernie-sanders-s-outreach-into-latino-neighborhoods-is-working
+
+  styles shud go in /src/styles.scss. scripts in /src/script.js if ur feeling fancy.
+
+  p.s. if you're super bored/wanna spend 2 hours on this: ignore steph & convert the video into audio and just do the original audio-controls-overlaid-on-image thing 😂😂
+-->
+
+<video class="">
+  <source src="{{ item.value.asset }}">
+</video>
