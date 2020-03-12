@@ -15,6 +15,12 @@
   }
 }
 
+#body-page-container.body-page-1 {
+  .cover > img {
+    object-position: 90% 0;
+  }
+}
+
 #body-page-container.body-page-2 {
   #navbar.only-logo .nav-link {
     &.nav-link-highlighted, &:hover {
@@ -89,7 +95,7 @@
 
 .video {
 	display: block;
-	margin: 30px auto;	
+	margin: 30px auto 34px;	
 	height: auto;
 }
 
@@ -114,6 +120,15 @@ $video-width: 860px;
   font-family: $georgia;
   color: #888;
   line-height: 1.3;
+}
+
+.video-title {
+  text-align: center;
+  font-weight: 600;
+  font-family: $graphik;
+  font-size: 17px;
+  margin-top: 27px;
+  margin-bottom: -14px;
 }
 
 @media (max-width: 767px) {
