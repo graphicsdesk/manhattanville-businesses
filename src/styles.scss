@@ -98,3 +98,26 @@
 	margin: 30px auto;	
 	height: auto;
 }
+
+$video-width: 860px;
+
+.video-loopy {
+  max-width: $video-width;
+  display: block;
+  margin: 25px auto 0;
+}
+
+.video-caption-text {
+  max-width: $video-width;
+  margin: 7px auto 20px;
+  font-size: 15px;
+  font-family: $georgia;
+  color: #888;
+  line-height: 1.3;
+}
+
+@media (max-width: 767px) {
+  .video-loopy, .video-caption-text {
+    padding: 0 $gbody-padding;
+  }
+}

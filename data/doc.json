@@ -10,10 +10,12 @@
     "page_3_link": "index3.html",
     "page_0_cover_img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/L4Y6D2SPSVEA5O76U44RQE74RU.jpg",
     "page_0_cover_caption": "Photography by <a href=\"https://www.columbiaspectator.com/contributors/Elisabeth-McLaughlin/\">Elisabeth McLaughlin</a>.",
-    "page_1_cover_img": "../assets/cottonowner.jpg",
+    "page_1_cover_img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/SVZU354GOVEY5JU44LAIBU7EQA.jpg",
+    "page_1_cover_caption": "Photography by <a href=\"https://www.columbiaspectator.com/contributors/Lila-Gaffney/\">Lila Gaffney</a>.",
     "page_2_cover_img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/ADJ37JSOSBCNBCQ53HYZ2AI7E4.jpg",
-    "page_2_cover_caption": "Two restaurants on 12th Avenue closed in the same month in 2019. Now a newcomer is struggling to stay afloat. Photography by Olivia Treynor.",
-    "page_3_cover_img": "../assets/cottonowner.jpg",
+    "page_2_cover_caption": "Two restaurants on 12th Avenue closed in the same month in 2019. Now a newcomer is struggling to stay afloat. Photography by <a href=\"https://www.columbiaspectator.com/contributors/Olivia-Treynor/\">Olivia Treynor</a>.",
+    "page_3_cover_img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/UGEHQBPRZRF2RGZA4VKBKT7VBI.jpg",
+    "page_3_cover_caption": "Photography by <a href=\"https://www.columbiaspectator.com/contributors/Lila-Gaffney/\">Lila Gaffney</a>.",
     "page_0_title": "Intro",
     "page_1_title": "Part 1: Forced Out",
     "page_2_title": "Part 2: Left Out",
@@ -52,6 +54,13 @@
         "value": "Graf"
       },
       {
+        "type": "video",
+        "value": {
+          "asset": "../assets/Dino_BBQ_Resized.mp4",
+          "caption": "Videography by Catherine Serianni."
+        }
+      },
+      {
         "type": "text",
         "value": "<a href=\"http://DUMMY\"><i>Continue reading Part 2</i></a><i>, in which businesses owners that arrived at 12th Avenue during construction describe the pain points in the corridor.</i>"
       }
@@ -73,9 +82,7 @@
         "type": "graphic",
         "value": {
           "asset": "portrait.html",
-          "owner_name": "Bierstrasse",
-          "restaurant_name": "Bierstrasse",
-          "description": "Bierstrasse",
+          "text": "In 2015, Henley and his family created Bierstrasse from the bottom up. In 2019, they were forced to abandon it.",
           "image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/OW2B575A5ZFI5OG2TL4CMDCM2M.jpg"
         }
       },
