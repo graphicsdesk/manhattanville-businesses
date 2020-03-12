@@ -1,6 +1,6 @@
 .PHONY: download build upload-assets deploy clean
 
-slug = TK
+slug = manhattanville-businesses
 
 download:
 	node process/download-doc.js

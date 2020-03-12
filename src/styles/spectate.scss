@@ -280,7 +280,7 @@ header {
 .logo-container {
   display: flex;
   justify-content: space-between;
-  height: 48px;
+  height: $navbar-height;
   z-index: 1;
 
   a {
@@ -422,6 +422,7 @@ header {
   .logo-container a {
     visibility: visible;
     margin-left: 20px;
+    height: $navbar-height;
 
     img#cds-logo {
       width: 147px;
@@ -463,7 +464,7 @@ header {
 .subhed {
   margin: 40px auto 20px;
   font-family: $georgia;
-  font-size: 25px;
+  font-size: 23px;
   text-align: center;
   line-height: 1.63;
   font-weight: bold;
@@ -583,7 +584,7 @@ header {
   p {
     font-family: $graphik;
     color: rgba(0, 0, 0, 0.7);
-    line-height: 1.3;
+    line-height: 22px;
     font-size: 15px;
   }  
 
