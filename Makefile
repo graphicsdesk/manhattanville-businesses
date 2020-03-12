@@ -5,6 +5,13 @@ slug = TK
 download:
 	node process/download-doc.js
 
+PAGE_NUMBERS = 0 1
+create-pages:
+	$(foreach pageNum, $(PAGE_NUMBERS),touch src/index${pageNum}.html; (echo '<pageConfig>{{ pageNum = $(pageNum) }}</pageConfig>'; cat src/index.html) > src/index${pageNum}.html;)
+
+destroy-pages:
+	$(foreach index,$(INDICES),rm -f src/index${index}.html;)
+
 build:
 	rm -rf dist/*
 	npm run build

@@ -9,33 +9,14 @@
       </button>
     </div>
     <div id="nav-links">
-      <each loop="item in [
-        {
-          name: 'Leads',
-          link: 'http://columbiaspectator.com/eye/lead',
-        },
-        {
-          name: 'Features',
-          link: 'http://columbiaspectator.com/eye/features',
-        },
-        {
-          name: 'View From Here',
-          link: 'http://columbiaspectator.com/eye/view-from-here',
-        },
-        {
-          name: 'The Ear',
-          link: 'http://columbiaspectator.com/eye/the-ear',
-        },
-        {
-          name: 'Eyesights',
-          link: 'http://columbiaspectator.com/eye/eyesights',
-        },
-        {
-          name: 'Past Issues',
-          link: 'https://www.columbiaspectator.com/issues/eye',
-        },
-      ]">
-        <a href="{{ item.link }}">{{ item.name }}</a>
+      <each loop="item in [0, 1].map(p => ({
+        pageNum: p,
+        name: top['page_' + p + '_title'],
+        link: 'index' + p + '.html',
+      }))">
+        <div class="nav-link" id="nav-link-{{ item.pageNum }}">
+          <a href="{{ item.link }}">{{ item.name }}</a>
+        </div>
       </each>
     </div>
   </div>

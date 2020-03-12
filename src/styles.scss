@@ -3,6 +3,22 @@
 // @import 'styles/eye-lead-ellipsis';
 // @import 'styles/news-ellipsis';
 
+#eye-logo {
+  visibility: hidden;
+}
+
+#body-page-container:not(.body-page-0) {
+  .cover-hed header {
+    max-width: 620px;
+  }
+}
+
+#body-page-container.body-page-0 {
+  .cover-hed header {
+    transform: translateY(-113%);
+  }
+}
+
 .story-top .graphic {
   margin-bottom: 0;
 }

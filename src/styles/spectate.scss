@@ -47,10 +47,10 @@ b {
   margin-bottom: 60px;
 
   header {
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.3);
     max-width: 700px;
     color: #fff;
-    transform: translateY(-150%); // TODO: do better;
+    transform: translateY(-35vh);
     align-items: center;
     
     p, h1 {
@@ -116,7 +116,8 @@ header {
 
   .headline {
     margin: 0;
-    margin-top: 50px;
+    // margin-top: 50px; (only for non COVER HED pages)
+    margin-top: 10px;
     font-size: 65px;
     line-height: 1;
     font-weight: bold;
@@ -241,8 +242,28 @@ header {
   background: none;
   box-shadow: none;
 
-  #nav-links {
-    opacity: 0;
+  div.nav-link {
+    margin: 0 0 0 42px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    border-top: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+    transition: border $fade-transition-duration;
+
+    &.nav-link-highlighted {      
+      border-bottom: 3px solid #fff;
+    }
+
+    a {
+      color: #fff;
+    }
+  }
+
+  div.nav-link:hover {
+    border-bottom: 3px solid #fff;
   }
 
   .hamburger-btn {
@@ -301,9 +322,28 @@ header {
   align-items: center;
   transition-duration: $fade-transition-duration;
 
+  div.nav-link {
+    margin: 0 0 0 42px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    border-top: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+    transition: border $fade-transition-duration;
+
+    &.nav-link-highlighted {      
+      border-bottom: 3px solid #121212;
+    }
+  }
+
+  div.nav-link:hover {
+    border-bottom: 3px solid #121212;
+  }
+
   a {
     margin: 0;
-    margin-left: 42px;
     font-family: $graphik;
     font-size: 14px;
     color: #121212;
@@ -311,7 +351,7 @@ header {
   }
 
   a:hover {
-    text-decoration: underline;
+    text-decoration: none;
   }
 }
 
@@ -518,4 +558,8 @@ header {
     margin-top: 29px;
     margin-bottom: 30px;
   }
+}
+
+pageConfig {
+  display: none;
 }

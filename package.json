@@ -5,7 +5,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "postinstall": "patch-package",
-    "dev": "parcel src/index.html --global script",
+    "dev": "make create-pages; parcel src/index0.html src/index1.html --global script",
     "build": "parcel build src/index.html --global script --public-url ."
   },
   "keywords": [],
