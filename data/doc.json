@@ -49,25 +49,6 @@
       },
       {
         "type": "text",
-        "value": "Roy Henley signed a lease to open Bierstrasse, a family-friendly beer garden, in Nov. 2015. He built the restaurant from scratch with his wife and his brother, a steel fabricator. His brother welded the frames for tables, and together, frame by frame, the brothers screwed on each wooden plank. For the centerpiece of the restaurant, they made a bar out of a large piece of wood that was thrown out from a brownstone being renovated on 146th Street."
-      },
-      {
-        "type": "text",
-        "value": "It took six months for Henley and his family to finish the beer garden. They were immensely proud of their work."
-      },
-      {
-        "type": "graphic",
-        "value": {
-          "asset": "portrait.html",
-          "owner_name": "Ramon",
-          "restaurant_name": "owner of Floridita",
-          "description": "123 Broadway st.",
-          "map": "https://www.theupstudio.com/designxarch/mapsinfographics/graphic-design-for-architecture-map-infographics-new-york-greenwich-village.png",
-          "image": "../assets/cottonowner.jpg"
-        }
-      },
-      {
-        "type": "text",
         "value": "Graf"
       },
       {
@@ -86,7 +67,17 @@
       },
       {
         "type": "text",
-        "value": "Graf"
+        "value": "Roy Henley signed a lease to open Bierstrasse, a family-friendly beer garden, in Nov. 2015. He built the restaurant from scratch with his wife and his brother, a steel fabricator. His brother welded the frames for tables, and together, frame by frame, the brothers screwed on each wooden plank. For the centerpiece of the restaurant, they made a bar out of a large piece of wood that was thrown out from a brownstone being renovated on 146th Street."
+      },
+      {
+        "type": "graphic",
+        "value": {
+          "asset": "portrait.html",
+          "owner_name": "Bierstrasse",
+          "restaurant_name": "Bierstrasse",
+          "description": "Bierstrasse",
+          "image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/OW2B575A5ZFI5OG2TL4CMDCM2M.jpg"
+        }
       },
       {
         "type": "text",

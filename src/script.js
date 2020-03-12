@@ -31,5 +31,4 @@ textBalancer.balanceText('.headline, .deck, .image-overlay .image-caption-text')
 // Highlight nav link
 
 const pageNum = parseInt(document.getElementById('body-page-container').getAttribute('data-page-num'));
-
-document.getElementById('nav-link-' + pageNum).classList.add('nav-link-highlighted')
+document.getElementById('nav-link-' + pageNum).classList.add('nav-link-highlighted');

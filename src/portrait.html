@@ -1,16 +1,11 @@
-<div>
-	<div class="portrait-container">
-		<img src="{{ item.value.image }}"/>
-	</div>
+<div class="portrait-container">
+	<img src="{{ item.value.image }}"/>
+</div>
 
-	<div class="annote">
-		<div class="annote-text-container {{ item.value.owner_name === 'Ramon' ? 'white-text' : '' }}">
-			<p class="name-text">{{ item.value.owner_name }}</p>
-			<p class="rest-text">{{ item.value.restaurant_name }}</p>
-			<p class="desc-text">{{ item.value.description }}</p>
-		</div>
-		<div class="map-flex">
-			<img src="{{item.value.map}}" class="map" />
-		</div>
+<div class="annote">
+	<div class="annote-text-container {{ item.value.owner_name === 'DUMMY' ? '' : 'white-text' }}">
+		<p class="name-text">{{ item.value.owner_name }}</p>
+		<p class="rest-text">{{ item.value.restaurant_name }}</p>
+		<p class="desc-text">{{ item.value.description }}</p>
 	</div>
 </div>
