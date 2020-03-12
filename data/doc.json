@@ -12,7 +12,7 @@
     "page_0_cover_caption": "Photography by <a href=\"https://www.columbiaspectator.com/contributors/Elisabeth-McLaughlin/\">Elisabeth McLaughlin</a>.",
     "page_1_cover_img": "../assets/cottonowner.jpg",
     "page_2_cover_img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/ADJ37JSOSBCNBCQ53HYZ2AI7E4.jpg",
-    "page_2_cover_caption": "Photography by Olivia Treynor.",
+    "page_2_cover_caption": "Two restaurants on 12th Avenue closed in the same month in 2019. Now a newcomer is struggling to stay afloat. Photography by Olivia Treynor.",
     "page_3_cover_img": "../assets/cottonowner.jpg",
     "page_0_title": "Intro",
     "page_1_title": "Part 1: Forced Out",
@@ -100,6 +100,16 @@
       {
         "type": "text",
         "value": "Graf"
+      },
+      {
+        "type": "text",
+        "value": "Graf"
+      },
+      {
+        "type": "video",
+        "value": {
+          "asset": "../assets/floriditasoundbite.mp4"
+        }
       },
       {
         "type": "text",
