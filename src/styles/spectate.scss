@@ -403,6 +403,7 @@ header {
         0 -10px white, // White shadow to mask top box-shadow
         $navbar-shadow;
       background-color: #fff;
+      flex: 1 0 auto;
 
       .nav-link {
         margin-left: 0;
@@ -412,6 +413,7 @@ header {
 
     .logo-container {
       border-bottom: 1px solid #ddd;
+      flex: 1 0 auto;
     }
   }
 
