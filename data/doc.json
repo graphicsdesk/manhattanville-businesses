@@ -639,7 +639,8 @@
       {
         "type": "video",
         "value": {
-          "asset": "../assets/floriditasoundbite.mp4"
+          "asset": "../assets/floriditasoundbite.mp4",
+          "title": "Play the video below to listen to Diaz speak."
         }
       },
       {
