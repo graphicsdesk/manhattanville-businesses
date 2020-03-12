@@ -270,6 +270,11 @@ header {
   #cds-logo {
     opacity: 0;
   }
+
+  #cds-logo-desktop-container {
+    opacity: 0;
+    transition-duration: $fade-transition-duration;
+  }
 }
 
 .logo-container {
@@ -277,10 +282,10 @@ header {
   justify-content: space-between;
   height: 48px;
   z-index: 1;
-  visibility: hidden;
 
   a {
     margin-left: 10px;
+    visibility: hidden;
   }
 }
 
@@ -377,7 +382,6 @@ header {
       width: 100%;
       text-align: center;
       background: #fff;
-      padding: 17px 0;
       margin-left: 0;
     }
   }
@@ -398,6 +402,12 @@ header {
       box-shadow:
         0 -10px white, // White shadow to mask top box-shadow
         $navbar-shadow;
+      background-color: #fff;
+
+      .nav-link {
+        margin-left: 0;
+        padding: 17px 0;
+      }
     }
 
     .logo-container {
@@ -409,13 +419,38 @@ header {
     border: none;
   }
 
-  #eye-logo {
-    width: 72px;
+  .logo-container a {
+    visibility: visible;
+    margin-left: 20px;
+
+    img#cds-logo {
+      width: 147px;
+    }
   }
 
   .hamburger-btn {
     display: block;
-  }  
+  }
+
+  #cds-logo-desktop-container {
+    display: none;
+  }
+}
+
+#cds-logo-desktop-container {
+  margin-right: 50px;
+
+  img {
+    height: 100%;
+    width: 147px;
+    object-fit: contain;
+  }
+}
+
+@media (max-width: 880px) {
+  #cds-logo-desktop-container {
+    display: none;
+  }
 }
 
 .paragraph {
@@ -446,19 +481,6 @@ header {
     width: 100%;
   }
 
-  .image-caption-text {
-    font-size: 15px;
-    font-family: $georgia;
-    color: #666;
-    margin: 7px 0 0 0;
-    padding: 0 $gbody-padding / 2;
-    line-height: 1.3;
-
-    .image-credit {
-      color: #999;
-    }
-  }
-
   .overlay-container {
     position: relative;
   }
@@ -483,6 +505,19 @@ header {
       font-size: 40px;
       line-height: 1.4;
     }
+  }
+}
+
+.image-caption-text {
+  font-size: 15px;
+  font-family: $georgia;
+  color: #666;
+  margin: 7px 0 0 0;
+  padding: 0 $gbody-padding / 2;
+  line-height: 1.3;
+
+  .image-credit {
+    color: #999;
   }
 }
 

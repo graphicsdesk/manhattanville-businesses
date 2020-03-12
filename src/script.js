@@ -26,7 +26,7 @@ export function hamburgerTrigger() {
 
 // Text balance headline and deck
 
-textBalancer.balanceText('.headline, .deck, .image-overlay .image-caption-text');
+textBalancer.balanceText('.headline, .deck, .image-overlay .image-caption-text, .annote-text');
 
 // Highlight nav link
 
