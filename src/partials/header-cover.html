@@ -1,10 +1,12 @@
 <div class="cover cover-hed">
-  <img src="{{ top.page_0_cover_img }}" />
+  <img src="{{ pages['page_' + pageNum + '_cover_img'] }}" />
 
   <header>
-    <h1 class="headline">{{ pageNum === 0 ? headline : top['page_' + pageNum + '_title'] }}</h1>
+    <h1 class="headline">{{ pageNum === 0 ? headline : pages['page_' + pageNum + '_title'] }}</h1>
     <!-- <p class="deck">{{ deck }}</p> -->
     <p class="byline">{{{ byline }}}</p>
     <p class="pub-date">{{ date }}</p>
   </header>
 </div>
+
+<p class="cover-caption">{{{ pages['page_' + pageNum + '_cover_caption'] }}}</p>

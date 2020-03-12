@@ -3,10 +3,6 @@
 // @import 'styles/eye-lead-ellipsis';
 // @import 'styles/news-ellipsis';
 
-#eye-logo {
-  visibility: hidden;
-}
-
 #body-page-container:not(.body-page-0) {
   .cover-hed header {
     max-width: 620px;
@@ -16,6 +12,18 @@
 #body-page-container.body-page-0 {
   .cover-hed header {
     transform: translateY(-113%);
+  }
+}
+
+#body-page-container.body-page-2 {
+  #navbar.only-logo .nav-link {
+    &.nav-link-highlighted, &:hover {
+      border-bottom: 3px solid #121212;
+    }
+
+    a {
+      color: #121212;
+    }
   }
 }
 

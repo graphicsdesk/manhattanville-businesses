@@ -5,7 +5,7 @@ slug = TK
 download:
 	node process/download-doc.js
 
-PAGE_NUMBERS = 0 1
+PAGE_NUMBERS = 0 1 2 3
 create-pages:
 	$(foreach pageNum, $(PAGE_NUMBERS),touch src/index${pageNum}.html; (echo '<pageConfig>{{ pageNum = $(pageNum) }}</pageConfig>'; cat src/index.html) > src/index${pageNum}.html;)
 

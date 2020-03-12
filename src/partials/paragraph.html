@@ -1,3 +1,29 @@
-<p class="g-body paragraph {{ item.value === '***' ? 'dinkus' : '' }}">  
-  {{{ item.value }}}
-</p>
+<if condition="item.value.includes && item.value.includes('Click here to read the introduction')">
+  <p class="g-body paragraph">
+    {{{ item.value.replace && item.value.replace('http://DUMMY', pages['page_0_link']) }}}
+  </p>
+</if>
+
+<elseif condition="item.value.includes && item.value.includes('Continue reading Part 1')">
+  <p class="g-body paragraph">
+    {{{ item.value.replace && item.value.replace('http://DUMMY', pages['page_1_link']) }}}
+  </p>
+</elseif>
+
+<elseif condition="item.value.includes && item.value.includes('Continue reading Part 2')">
+  <p class="g-body paragraph">
+    {{{ item.value.replace && item.value.replace('http://DUMMY', pages['page_2_link']) }}}
+  </p>
+</elseif>
+
+<elseif condition="item.value.includes && item.value.includes('Continue reading Part 3')">
+  <p class="g-body paragraph">
+    {{{ item.value.replace && item.value.replace('http://DUMMY', pages['page_3_link']) }}}
+  </p>
+</elseif>
+
+<else>
+  <p class="g-body paragraph {{ item.value === '***' ? 'dinkus' : '' }}">
+    {{{ item.value }}}
+  </p>
+</else>

@@ -2,25 +2,58 @@
   "headline": "Upscaled: The cost of Columbia construction for struggling 12th Avenue businesses",
   "date": "March 12, 2020",
   "byline": "By <a href=\"https://www.columbiaspectator.com/contributors/Clay--Anderson-/\">Clay Anderson</a>",
-  "credits": "Edited by <a href=\"https://www.columbiaspectator.com/contributors/Julian-Shen-Berro/10/\">Julian Shen-Berro</a>, <a href=\"https://www.columbiaspectator.com/contributors/Karen-Xia/\">Karen Xia</a>, <a href=\"https://www.columbiaspectator.com/contributors/Rahil-Kamath\">Rahil Kamath</a>",
-  "footer": "Produced by <a href=\"https://www.columbiaspectator.com/contributors/Jun-Yi-Zhang/\">Jun Yi Zhang</a>. Graphics by <a href=\"https://www.columbiaspectator.com/contributors/Charlotte-Li/\">Charlotte Li</a>. Additional development by Hong Sen Du.",
-  "top": {
-    "page_0_cover_img": "../assets/cottonowner.jpg",
+  "footer": "Produced by <a href=\"https://www.columbiaspectator.com/contributors/Jun-Yi-Zhang/\">Jun Yi Zhang</a> and <a href=\"https://www.columbiaspectator.com/contributors/Jason-Kao/\">Jason Kao</a>. Maps by <a href=\"https://www.columbiaspectator.com/contributors/Charlotte-Li/\">Charlotte Li</a>. Additional development by Hong Sen Du.",
+  "pages": {
+    "page_0_link": "index0.html",
+    "page_1_link": "index1.html",
+    "page_2_link": "index2.html",
+    "page_3_link": "index3.html",
+    "page_0_cover_img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/L4Y6D2SPSVEA5O76U44RQE74RU.jpg",
+    "page_0_cover_caption": "Photography by <a href=\"https://www.columbiaspectator.com/contributors/Elisabeth-McLaughlin/\">Elisabeth McLaughlin</a>.",
     "page_1_cover_img": "../assets/cottonowner.jpg",
+    "page_2_cover_img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/ADJ37JSOSBCNBCQ53HYZ2AI7E4.jpg",
+    "page_2_cover_caption": "Photography by Olivia Treynor.",
+    "page_3_cover_img": "../assets/cottonowner.jpg",
     "page_0_title": "Intro",
-    "page_1_title": "Part 1: Forced Out"
+    "page_1_title": "Part 1: Forced Out",
+    "page_2_title": "Part 2: Left Out",
+    "page_3_title": "Part 3: Two More Years Out"
   },
   "body": {
     "page_0": [
       {
         "type": "text",
         "value": "Ramon Diaz, a longtime business owner in the Manhattanville neighborhood, views his restaurant as home. Throughout his time, Floridita has served generations of families and became a place where younger customers, who had originally eaten there as children, would later return with families of their own."
+      },
+      {
+        "type": "subhed",
+        "value": "Subhed"
+      },
+      {
+        "type": "text",
+        "value": "But that was before Floridita signed a lease with Columbia in 2010 to relocate from Broadway Avenue to 12th Avenue, as part of the University’s initial plans to build a state-of-the-art campus in the restaurant’s former location."
+      },
+      {
+        "type": "text",
+        "value": "<a href=\"http://DUMMY\"><i>Continue reading Part 1</i></a><i>, in which businesses relocated by the University discuss how they have adapted to their new locations.</i>"
       }
     ],
     "page_1": [
       {
         "type": "text",
-        "value": "Graf"
+        "value": "<i>This is the first part of a three-part series. </i><a href=\"http://DUMMY\"><i>Click here to read the introduction</i></a><i>."
+      },
+      {
+        "type": "text",
+        "value": "</i>"
+      },
+      {
+        "type": "text",
+        "value": "Roy Henley signed a lease to open Bierstrasse, a family-friendly beer garden, in Nov. 2015. He built the restaurant from scratch with his wife and his brother, a steel fabricator. His brother welded the frames for tables, and together, frame by frame, the brothers screwed on each wooden plank. For the centerpiece of the restaurant, they made a bar out of a large piece of wood that was thrown out from a brownstone being renovated on 146th Street."
+      },
+      {
+        "type": "text",
+        "value": "It took six months for Henley and his family to finish the beer garden. They were immensely proud of their work."
       },
       {
         "type": "graphic",
@@ -32,6 +65,50 @@
           "map": "https://www.theupstudio.com/designxarch/mapsinfographics/graphic-design-for-architecture-map-infographics-new-york-greenwich-village.png",
           "image": "../assets/cottonowner.jpg"
         }
+      },
+      {
+        "type": "text",
+        "value": "Graf"
+      },
+      {
+        "type": "text",
+        "value": "<a href=\"http://DUMMY\"><i>Continue reading Part 2</i></a><i>, in which businesses owners that arrived at 12th Avenue during construction describe the pain points in the corridor.</i>"
+      }
+    ],
+    "page_2": [
+      {
+        "type": "text",
+        "value": "<i>This is the second part of a three-part series. </i><a href=\"http://DUMMY\"><i>Click here to read the introduction</i></a><i>."
+      },
+      {
+        "type": "text",
+        "value": "</i>"
+      },
+      {
+        "type": "text",
+        "value": "Graf"
+      },
+      {
+        "type": "text",
+        "value": "Graf"
+      },
+      {
+        "type": "text",
+        "value": "<a href=\"http://DUMMY\"><i>Continue reading Part 3</i></a><i>, in which key stakeholders describe how to save 12th Avenue and brace for the next stages of Columbia’s development.</i>"
+      }
+    ],
+    "page_3": [
+      {
+        "type": "text",
+        "value": "<i>This is the third part of a three-part series. </i><a href=\"http://DUMMY\"><i>Click here to read the introduction</i></a><i>."
+      },
+      {
+        "type": "text",
+        "value": "</i>"
+      },
+      {
+        "type": "text",
+        "value": "Graf"
       },
       {
         "type": "text",
