@@ -64,22 +64,26 @@ header {
 // Added to remove navbar and basically everything lol
 
 section#top {
-    display: none;
+  display: none;
 }
 
 .pb-f-article-article-title, .pb-f-article-next-story {
-    display: none;
+  display: none;
 }
 
 .pb-container {
-    width: 100%;
+  width: 100%;
 
-    .pb-chain:nth-child(2) {
-        width: 100%;
-        padding: 0;
-    }
+  .pb-chain:nth-child(2) {
+    width: 100%;
+    padding: 0;
+  }
 }
 
 .pb-f-article-article-body .ab-article-body {
-    margin-top: -10px !important;
+  margin-top: -10px !important;
+}
+
+.at-share-dock-outer {
+  display: none;
 }

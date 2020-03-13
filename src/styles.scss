@@ -21,7 +21,7 @@
   }
 }
 
-#body-page-container.body-page-2 {
+#body-page-container.body-page-2, #body-page-container.body-page-1 {
   #navbar.only-logo .nav-link {
     &.nav-link-highlighted, &:hover {
       border-bottom: 3px solid #121212;
