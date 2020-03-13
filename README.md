@@ -1,3 +1,5 @@
+[**Upscaled: The cost of Columbia construction for struggling 12th Avenue businesses**](https://www.columbiaspectator.com/news/2020/03/13/upscaled-the-cost-of-columbia-construction-for-struggling-12th-avenue-businesses/)
+
 # Manhattanvillle Businesses
 
 This story was created with [Spectate](https://github.com/spec-journalism/spectate).
