@@ -1,6 +1,6 @@
 import enterView from 'enter-view';
 import textBalancer from 'text-balancer';
-require('dotenv').config();
+// require('dotenv').config();
 
 import { USE_COVER_HED } from '../config.json';
 
