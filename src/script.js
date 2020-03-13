@@ -3,23 +3,6 @@ import textBalancer from 'text-balancer';
 
 import { USE_COVER_HED } from '../config.json';
 
-/* Highlight nav link */
-
-const pageNum = parseInt(document.getElementById('body-page-container').getAttribute('data-page-num'));
-document.getElementById('nav-link-' + pageNum).classList.add('nav-link-highlighted');
-
-/* Mapbox stuff */
-
-import dotenv from 'dotenv';
-dotenv.config();
-console.log(process.env.MAPBOX_TOKEN);
-// import mapboxgl from 'mapbox-gl';
-// Get the env somehow
-
-// unhide #charlotte
-
-// Do commands based on page number
-
 /* Fade in navbar at scroll trigger */
 
 const navbar = document.getElementById('navbar');
@@ -44,3 +27,23 @@ export function hamburgerTrigger() {
 /* Text balance headline and deck */
 
 textBalancer.balanceText('.headline, .deck, .image-overlay .image-caption-text, .annote-text');
+
+/* Highlight nav link */
+
+const pageNum = parseInt(document.getElementById('body-page-container').getAttribute('data-page-num'));
+document.getElementById('nav-link-' + pageNum).classList.add('nav-link-highlighted');
+
+
+/* ===== MAPBOX ====== */
+
+import mapboxgl from 'mapbox-gl';
+import dotenv from 'dotenv';
+dotenv.config();
+mapboxgl.access_token = process.env.MAPBOX_TOKEN;
+
+const mapDiv = document.getElementById('charlotte');
+mapDiv.style.display = 'block';
+mapDiv.removeChild(mapDiv.firstElementChild);
+
+// Do commands based on page number
+
