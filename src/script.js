@@ -4,9 +4,19 @@ require('dotenv').config();
 
 import { USE_COVER_HED } from '../config.json';
 
+/* Highlight nav link */
+
+const pageNum = parseInt(document.getElementById('body-page-container').getAttribute('data-page-num'));
+document.getElementById('nav-link-' + pageNum).classList.add('nav-link-highlighted');
+
 /* Mapbox stuff */
 
 // import mapboxgl from 'mapbox-gl';
+// Get the env somehow
+
+// unhide #charlotte
+
+// Do commands based on page number
 
 /* Fade in navbar at scroll trigger */
 
@@ -32,8 +42,3 @@ export function hamburgerTrigger() {
 /* Text balance headline and deck */
 
 textBalancer.balanceText('.headline, .deck, .image-overlay .image-caption-text, .annote-text');
-
-/* Highlight nav link */
-
-const pageNum = parseInt(document.getElementById('body-page-container').getAttribute('data-page-num'));
-document.getElementById('nav-link-' + pageNum).classList.add('nav-link-highlighted');
