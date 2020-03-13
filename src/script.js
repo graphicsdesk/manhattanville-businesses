@@ -42,8 +42,8 @@ dotenv.config();
 mapboxgl.access_token = process.env.MAPBOX_TOKEN;
 
 const mapDiv = document.getElementById('charlotte');
-mapDiv.style.display = 'block';
-mapDiv.removeChild(mapDiv.firstElementChild);
+mapDiv.style.display = 'block'; // Override dummy style: display none
+mapDiv.removeChild(mapDiv.firstElementChild); // Remove the dummy <p>
 
 // Do commands based on page number
 
