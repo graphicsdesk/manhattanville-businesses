@@ -1,6 +1,5 @@
 import enterView from 'enter-view';
 import textBalancer from 'text-balancer';
-// require('dotenv').config();
 
 import { USE_COVER_HED } from '../config.json';
 
@@ -11,6 +10,9 @@ document.getElementById('nav-link-' + pageNum).classList.add('nav-link-highlight
 
 /* Mapbox stuff */
 
+import dotenv from 'dotenv';
+dotenv.config();
+console.log(process.env.MAPBOX_TOKEN);
 // import mapboxgl from 'mapbox-gl';
 // Get the env somehow
 
