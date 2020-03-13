@@ -51,7 +51,8 @@
 
 .portrait-container {
 	height: 100vh;
-	position: sticky;
+  position: sticky;
+  position: -webkit-sticky;
 	top: 0;
 	z-index: -1;
   margin-bottom: 20px;
