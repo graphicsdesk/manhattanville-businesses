@@ -25,7 +25,8 @@ deploy-gh: build
 
 # deploy-arc: build upload-assets
 
-# I messed up the syncing/--no-content-hash so now we have to do this after pub: sync then rename
+# I messed up the syncing/--no-content-hash so now we have to do this after pub:
+# rename a dist file from the --no-content-hash hash to the hash from the build without --no-content-hash
 sync-js:
 	aws s3 cp dist/script.75da7f30.js s3://spectator-static-assets/$(slug)/script.27bc1f26.js  --acl=public-read --profile=spec
 	aws s3 cp dist/script.75da7f30.js.map s3://spectator-static-assets/$(slug)/  --acl=public-read --profile=spec

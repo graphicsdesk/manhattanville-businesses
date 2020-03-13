@@ -132,7 +132,7 @@ $video-width: 860px;
 }
 
 @media (max-width: 767px) {
-  .video-loopy, .video-caption-text {
+  .video-caption-text {
     padding: 0 $gbody-padding;
   }
 }
