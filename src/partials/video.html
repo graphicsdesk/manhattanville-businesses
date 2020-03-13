@@ -23,7 +23,7 @@
   </if>
 
   <if condition="item.value.asset && item.value.asset.includes('Dino')">
-    <video class="g-body video-loopy" loop autoplay muted>
+    <video class="g-body video-loopy" loop autoplay muted playsinline defaultMuted>
       <source src="{{ item.value.asset }}" />
     </video>
   </if>
