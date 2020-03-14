@@ -11,6 +11,8 @@
   "keywords": [],
   "devDependencies": {
     "@newswire/doc-to-archieml": "^1.0.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
     "cssnano": "^4.1.10",
     "googleapis": "^44.0.0",
     "parcel-bundler": "^1.12.4",
