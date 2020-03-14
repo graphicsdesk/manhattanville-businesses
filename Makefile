@@ -37,7 +37,8 @@ sync-css-no-build:
 	aws s3 cp dist/styles.164d45a1.css.map s3://spectator-static-assets/$(slug)/  --acl=public-read --profile=spec
 sync-css: build sync-css-no-build
 
-deploy-arc: sync-js # sync-css
+deploy-arc: build sync-js-no-build sync-css-no-build
+deploy-arc-no-build: sync-js-no-build sync-css-no-build
 
 clean:
 	rm -rf dist

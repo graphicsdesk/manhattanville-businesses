@@ -36,14 +36,8 @@
 // Map stuff
 
 .map {
-  height: 300px;
-  max-width: 600px;
-  border: 1px solid red;
+  height: 350px;
   margin: 0 auto;
-  color: red;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 
@@ -109,7 +103,7 @@
 $video-width: 860px;
 
 .video-loopy {
-  max-width: $video-width;
+  // max-width: $video-width;
   display: block;
   margin: 30px auto;
 }

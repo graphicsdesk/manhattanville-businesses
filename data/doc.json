@@ -4,10 +4,11 @@
   "byline": "By <a href=\"https://www.columbiaspectator.com/contributors/Clay--Anderson-/\">Clay Anderson</a> and <a href=\"https://www.columbiaspectator.com/contributors/Stephanie-Lai\">Stephanie Lai</a>",
   "footer": "Produced by <a href=\"https://www.columbiaspectator.com/contributors/Jun-Yi-Zhang/\">Jun Yi Zhang</a> and <a href=\"https://www.columbiaspectator.com/contributors/Jason-Kao/\">Jason Kao</a>. Maps by <a href=\"https://www.columbiaspectator.com/contributors/Charlotte-Li/\">Charlotte Li</a>. Additional development by Hong Sen Du.",
   "pages": {
-    "page_0_link": "https://www.columbiaspectator.com/news/2020/03/13/upscaled-the-cost-of-columbia-construction-for-struggling-12th-avenue-businesses",
+    "page_0_link": "",
     "page_1_link": "https://www.columbiaspectator.com/news/2020/03/13/part-1-forced-out",
     "page_2_link": "https://www.columbiaspectator.com/news/2020/03/13/part-2-left-out",
     "page_3_link": "https://www.columbiaspectator.com/news/2020/03/13/part-3-two-more-years-out",
+    "https": "//www.columbiaspectator.com/news/2020/03/13/upscaled-the-cost-of-columbia-construction-for-struggling-12th-avenue-businesses",
     "page_0_cover_img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/L4Y6D2SPSVEA5O76U44RQE74RU.jpg",
     "page_0_cover_caption": "Photography by <a href=\"https://www.columbiaspectator.com/contributors/Elisabeth-McLaughlin/\">Elisabeth McLaughlin</a>.",
     "page_1_cover_img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/SVZU354GOVEY5JU44LAIBU7EQA.jpg",
@@ -174,6 +175,9 @@
         "type": "graphic",
         "value": {
           "asset": "map.html",
+          "id": "floridita-map",
+          "old_location": "-73.958252, 40.816126",
+          "new_location": "-73.960993, 40.817990",
           "title": "Floridita"
         }
       },
@@ -225,6 +229,9 @@
         "type": "graphic",
         "value": {
           "asset": "map.html",
+          "id": "dino-map",
+          "old_location": "-73.959246, 40.818427",
+          "new_location": "-73.960844, 40.818008",
           "title": "Dino BBQ"
         }
       },
@@ -330,7 +337,7 @@
       },
       {
         "type": "text",
-        "value": "Roy Henley signed a lease to open Bierstrasse, a family-friendly beer garden, in Nov. 2015. He built the restaurant from scratch with his wife and his brother, a steel fabricator. His brother welded the frames for tables, and together, frame by frame, the brothers screwed on each wooden plank. For the centerpiece of the restaurant, they made a bar out of a large piece of wood that was thrown out from a brownstone being renovated on 146th Street."
+        "value": "Roy Henley signed a lease to open Bierstrasse, a family-friendly beer garden, in Nov. 2015. He built the restaurant from scratch with his wife and his brother, a steel fabricator. His brother welded the frames for the tables, and together, frame by frame, the brothers screwed on each wooden plank. For the centerpiece of the restaurant, they made a bar out of a large piece of wood that was thrown out from a brownstone being renovated on 146th Street."
       },
       {
         "type": "text",
