@@ -33,7 +33,6 @@ textBalancer.balanceText('.headline, .deck, .image-overlay .image-caption-text, 
 const pageNum = parseInt(document.getElementById('body-page-container').getAttribute('data-page-num'));
 document.getElementById('nav-link-' + pageNum).classList.add('nav-link-highlighted');
 
-
 /* ===== MAPBOX ====== */
 
 import mapboxgl from 'mapbox-gl';
@@ -46,10 +45,17 @@ if (pageNum === 1) {
   makeMap('dino-map', 'Dino');
 }
 
+function create12thAveNote(mapDiv) {
+  const NOTE_TEXT = 'Note: 12th Avenue is located directly underneath Riverside Drive, which is an elevated road.';
+  mapDiv.insertAdjacentHTML('afterend', `<p class="g-body map-note">${NOTE_TEXT}</p>`);
+}
+
 function makeMap(mapId, restaurantName) {
   const mapDiv = document.getElementById(mapId);
   mapDiv.style.display = 'block'; // Override dummy style: display none
   mapDiv.removeChild(mapDiv.firstElementChild); // Remove the dummy <p>
+
+  create12thAveNote(mapDiv); // last minute code to add a note below the map
 
   // const [ x0, y0 ] = mapDiv.getAttribute('data-old-location').split(', ').map(parseFloat);
   // const [ xf, yf ] = mapDiv.getAttribute('data-new-location').split(', ').map(parseFloat);
