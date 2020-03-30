@@ -43,6 +43,6 @@ https://spectator-static-assets.s3.amazonaws.com/SLUG
 
 2. Uncomment the appropriate override stylesheet in `styles.scss`.
 
-3. Run `make deploy-arc`.
+3. Run `make sync-js` to sync JS, `make sync-css`, or `make deploy-arc` to do both.
 
 4. Copy the contents of `dist/index.html` into Ellipsis.
