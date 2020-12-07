@@ -52,7 +52,7 @@ if (window.location.pathname.indexOf('/contributors') === 0) {
 import mapboxgl from 'mapbox-gl';
 import dotenv from 'dotenv';
 dotenv.config();
-mapboxgl.accessToken = process.env.MAPBOX_TOKEN;
+mapboxgl.accessToken = 'pk.eyJ1IjoianNvbmthbyIsImEiOiJjanNvM2U4bXQwN2I3NDRydXQ3Z2kwbWQwIn0.JWAoBlcpDJwkzG-O5_r0ZA';
 
 if (pageNum === 1) {
   makeMap('floridita-map', 'Floridita');
